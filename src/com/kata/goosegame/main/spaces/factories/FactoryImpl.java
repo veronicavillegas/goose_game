@@ -12,9 +12,13 @@ public class FactoryImpl implements Factory {
         if(space == 6) {
             return new BridgeInstruction();
         }
-        if(space % 6 == 0) {
+        if(isMultipleOfSix(space)) {
             return new MultipleOfSixInstruction();
         }
         else return new NoMultipleOfSixInstruction(space);
+    }
+
+    private boolean isMultipleOfSix(int space) {
+        return space % 6 == 0;
     }
 }
