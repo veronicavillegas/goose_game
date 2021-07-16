@@ -1,9 +1,9 @@
-package com.kata.goosegame.main.spaces.factories;
+package com.kata.goosegame.main.instructions.factories;
 
-import com.kata.goosegame.main.spaces.BridgeInstruction;
-import com.kata.goosegame.main.spaces.Instruction;
-import com.kata.goosegame.main.spaces.MultipleOfSixInstruction;
-import com.kata.goosegame.main.spaces.NoMultipleOfSixInstruction;
+import com.kata.goosegame.main.instructions.BridgeInstruction;
+import com.kata.goosegame.main.instructions.Instruction;
+import com.kata.goosegame.main.instructions.MultipleOfSixInstruction;
+import com.kata.goosegame.main.instructions.NoMultipleOfSixInstruction;
 
 public class FactoryImpl implements Factory {
 

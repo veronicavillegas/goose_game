@@ -1,4 +1,4 @@
-package com.kata.goosegame.main.spaces;
+package com.kata.goosegame.main.instructions;
 
 public class NoMultipleOfSixInstruction implements Instruction {
     private int space;

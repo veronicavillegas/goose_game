@@ -1,8 +1,8 @@
 package com.kata.goosegame.main;
 
-import com.kata.goosegame.main.spaces.Instruction;
-import com.kata.goosegame.main.spaces.factories.Factory;
-import com.kata.goosegame.main.spaces.factories.FactoryImpl;
+import com.kata.goosegame.main.instructions.Instruction;
+import com.kata.goosegame.main.instructions.factories.Factory;
+import com.kata.goosegame.main.instructions.factories.FactoryImpl;
 
 public class GooseGame {
     private final int BOARD_SIZE = 63;
