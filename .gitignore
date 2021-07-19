@@ -1,22 +1,6 @@
 
 src/com/.DS_Store
 src/.DS_Store
-out/production/goose_game/com/kata/goosegame/main/spaces/NoMultipleOfSixInstruction.class
-out/production/goose_game/com/kata/goosegame/main/spaces/MultipleOfSixInstruction.class
-out/production/goose_game/com/kata/goosegame/main/spaces/Instruction.class
-out/production/goose_game/com/kata/goosegame/main/spaces/factories/FactoryImpl.class
-out/production/goose_game/com/kata/goosegame/main/spaces/factories/Factory.class
-out/production/goose_game/com/kata/goosegame/main/spaces/BridgeInstruction.class
-out/production/goose_game/com/kata/goosegame/main/Main.class
-out/production/goose_game/com/kata/goosegame/main/GooseGame.class
+out/*
 .idea/uiDesigner.xml
-src/.DS_Store
-.idea/uiDesigner.xml
-.idea/uiDesigner.xml
-src/.DS_Store
-src/.DS_Store
-.idea/uiDesigner.xml
-src/.DS_Store
 *.xml
-goose_game.iml
-goose_game.iml
