@@ -10,12 +10,12 @@ public class GooseGame {
 
     public void printInstructionsForBoard() {
         for(int i = 1; i <= BOARD_SIZE; i++) {
-            Instruction instruction = factory.createInstruction(i);
-            printInstruction(instruction);
+            System.out.println(getInstructionForSpace(i));
         }
     }
 
-    private void printInstruction(Instruction instruction) {
-        System.out.println(instruction.getInstruction());
+    public String getInstructionForSpace(int space) {
+        Instruction instruction = factory.createInstruction(space);
+        return instruction.getInstruction();
     }
 }
